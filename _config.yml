@@ -1,8 +1,6 @@
-<style> 
-    * {
-      font-family: sans-serif;
-    }
-</style>
+.cssVersion {
+    font-family: verdana;
+}
 
 theme: jekyll-theme-midnight
 title: Vasilije Kovačević
