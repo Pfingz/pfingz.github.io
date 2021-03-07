@@ -1,3 +1,9 @@
+<style> 
+    * {
+      font-family: sans-serif;
+    }
+</style>
+
 theme: jekyll-theme-midnight
 title: Vasilije Kovačević
 description: a Game Designer from Montenegro
