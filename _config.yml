@@ -1,4 +1,4 @@
-font: sans-serif
 theme: jekyll-theme-midnight
 title: Vasilije Kovačević
 description: a Game Designer from Montenegro
+font: '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
