@@ -1,54 +1,12 @@
-.slide-container {
-	width: 1920px;
-	height: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
-	text-align: center;
+---
+---
+
+@import "{{ site.theme }}";
+
+footer {
+  display: none !important;
 }
-.image-container {
-	width: 13440px;
-	height: 600px;
-	position: relative;
-	transition: left 2s;
-	-webkit-transition: left 2s;
-	-moz-transition: left 2s;
-	-o-transition: left 2s;
-}
-.slider-image {
-	float: left;
-	margin: 0px;
-	padding: 0px;
-}
-.button-container {
-	top: -20px;
-	position: relative;
-}
-.slider-button {
-	display: inline-block;
-	height: 10px;
-	width: 10px;
-	border-radius: 5px;
-	background-color: white;
-}
-#slider-image-1:target ~ .image-container{
-	left: 0px;
-}
-#slider-image-2:target ~ .image-container{
-	left: -1920px;
-}
-#slider-image-3:target ~ .image-container{
-	left: -3840px;
-}
-#slider-image-4:target ~ .image-container{
-	left: -5760px;
-}
-#slider-image-5:target ~ .image-container{
-	left: -7680px;
-}
-#slider-image-6:target ~ .image-container{
-	left: -9600px;
-}
-#slider-image-7:target ~ .image-container{
-	left: -11520px;
+
+.btn {
+  display: none !important;
 }
